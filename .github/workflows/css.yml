@@ -2,7 +2,7 @@ name: 'Update CSS'
 on: 
 #  push:
 #    branches:
-#    - css
+#    - main
   schedule:
   - cron: '0 */6 * * *'
   workflow_dispatch:
